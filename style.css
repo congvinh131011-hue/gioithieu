@@ -224,12 +224,24 @@ nav a:hover {
     color: var(--primary-red);
 }
 
-/* Footer */
+/* Footer & Credit */
 footer {
     background-color: var(--primary-red);
     color: var(--primary-gold);
     text-align: center;
-    padding: 20px;
+    padding: 25px 20px;
     margin-top: 50px;
     border-top: 3px solid var(--primary-gold);
+}
+
+.credit {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 215, 0, 0.3);
+    font-size: 0.95rem;
+    color: #FFF;
+}
+
+.credit strong {
+    color: var(--primary-gold);
 }
